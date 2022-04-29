@@ -6,18 +6,43 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
+#info {
+
+background-color: aquamarine;
+
+}
+
+#first_line {
+
+  color: black;
+  font-weight: 700;
+}
+
+
+
+#summary {
+
+background-color: coral;
+color: blue;
+
+}
+
 .lists {
   background-color: blueviolet;
 }
 
 body {
-
- 
- font-size: 12;
+ font-size: 16;
+ color: rgb(210, 12, 12);
  font-family: 'Courier New', Courier, monospace;
- background-color: blue;
+ background-color: rgb(67, 67, 163);
+ text-align: center;
 }
 
+H1 {
+  font-weight: bold;
+  font-style: italic;
+}
 
 .Header {
   border: 1px solid red;
@@ -28,7 +53,6 @@ p.thick {
 }
 
 .trial1 {
-
   font-size: 15;
   font-color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
