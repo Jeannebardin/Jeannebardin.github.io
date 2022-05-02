@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      
+        <link href="../styles/main.css" rel="stylesheet" type="text/css">
+        <title>HTML Template</title>
+    </head>
+    <body>
+<h3> This journal entry explains attempts to simply explain a few concepts of Javascript web development and is targeting those with little knowledge of computer science.</h3>
+
+
+<h3>Here's an analogy to describe JavaScript and its relationship to HTML and CSS.</h3>
+   <p> Javascript is a programming language that will make your HTML (skeleton) and its styling (CSS) come alive and dance! It will allow you to create actions and do things that will allow your web page to function and be useful.. Not just link to other web pages and have an aesthetic. It will program the behaviour of a web page so if it doesn't work well you can think of it like a bad dancer, jerking and not joining up with its surroundings or bashing into things. Javascript holds data which is like a physical space and needs to be stored somewhere, like a body takes up a dance floor. Javascript is a party running in the browser. The analogy is that it is something “active” that will allow your code to do things and behave in a particular way according to its inputs and design.</p>
+   
+<h3>Explain control flow and loops using an example process from everyday life.</h3>
+  <p>Control flow is the order in which the program's code executes. It's the steps in a process such as cooking a souffle, or dancing in unison, or constructing a home. The flow has instructions and these are called loops.
+  Loops can also be called instructions or “function calls” which is a more literal description of what they do. Loops iterate which means they are added on to the previous loop. So for instance if one was cooking you would add the sugar after the flour and follow this with another ingredient before heating it.</p>
+  
+  
+  
+<h3>What is the DOM and how might one interact with it?</h3>
+  
+<p>The DOM stands for the Document Object Model. It's an API or Application Programming Interface for the web, i.e HTML (Hyper text Markup language) and XML files (extensible markup language).
+  
+  It is easy to access via a browsers developer tools (for example Google Chrome).
+  
+  The DOM is a data structure which looks like a tree and reminds one of the website site maps of old (less popular these days), although it goes into much more depth that the files that connect to one another and their locations. It’s more like an architecture, with logic between elements and direction on how to access and change any one of these documents.
+  
+  The DOM allows one to have a local storage or a website and hence check where and how elements can be changed. Console logging things and looking at the DOM is another good way to use to be able to test code and how it will react. The DOM is a developer tool that is embedded into every website by default and you can access it via Command shift C on a Mac.
+</p>
+  
+<h3>Explain the difference between accessing data from arrays and objects.</h3>
+  
+  
+  
+<p>Variables are a way to store information and to get it out again - to then do whatever you want with it. There are many types of variables including arrays and objects. Variables are “declared”.
+  
+  Arrays can be used effectively for a list or collection of things… like a basket. Accessing this list is done via an index that is numbered and starts from 0 (programmers have their own numbering conventions!)
+  
+  So if an Array contained [apples, oranges, pears, lemons] then the pears would be at position number 2, for the purposes of indexing and calling this in a function.
+  
+  Objects unlike arrays have “key value pairs”. They have a key, which is like a label, and then a value.. Which could be anything including a string or a number or another value defined elsewhere.
+  
+  We use square brackets for Arrays and curly brackets for Objects. </p>
+  
+  
+<h3>What are functions and and why they are useful?</h3>
+  
+<p>Function are a set of instructions. Similar to that for cooking i.e kind of like a recipe with ingredients and a method and order of execution. </p>
+  
+<p>The setup looks like this:</p>
+  <Br>
+<p>Function functionName (argument) {
+  
+  } </p>
+  
+<p> Functionname ( ) </p>
+  
+<p> Function functionName(argument) { </p>
+<p>console.log(argument)</p>
+  
+<p>functionName(“string”)</p>
+  
+<p>Importantly the Argument name is arbitrary </p>
+  
+<p>Function functionName(argu1, “argu2”) { </p>
+  
+<p>}</p>
+  
+  
+<p>Functions allow you to repeatedly use and access a mini program without having to retype it, so it is both convenient as well as more accurate as you can swap variables in and out without error that could come from setting up a duplicate “cake baking method/instructions” every time you want to bake the cake (execute).</p>
+  
+  
+  
+  
+  
+
+
+
+
+
+
+</body>
+</html>
