@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      
+        <link href="../styles/main.css" rel="stylesheet" type="text/css">
+        <title>Examples of methods in JS</title>
+</head>
+<body>
+
+
+<h2>.map</h2>
+
+
+Array.map() is a succinct method to achieve the outcome of iterating over an array using a loop. This allows you to modify an array’s elements using a callback function. The callback function will then be executed on each of the array's elements.
+
+Here is an array:
+
+Let exampleArray = [7, 8, 9, 10]
+
+Lets times (*) these by 10.
+
+
+for (let i = 0; i < exampleArray.length; i++){
+  exampleArray[i] = exampleArray[i] * 10;
+}
+
+return(exampleArray); // [70, 80, 90, 100]
+
+
+We can do the same thing as above and use a different JS ‘method’. Methods are like shortcuts that make things more succinct as they are preprogrammed to work.
+
+let exampleArray = [7, 8, 9, 10];
+
+let modifiedArr = exampleArray.map(function(element){
+    return element *10;
+});
+
+return(modifiedArr); // [70, 80, 90, 100]
+
+<br>
+<h2>.parseInt</h2>
+
+This is a function in JS that “parses” or “breaks down” a string and then returns an integer (number) or a NaN (Not a Number). It extracts it. 
+
+To remember Nan: think of the fact that your Nanna in an old age home is Not just a number she is a human being!
+
+
+<br>
+<h2>Examples:</h2>
+
+parseInt(string)
+
+const someorothernumber = '99';
+console.log(77 + someorothernumber);
+// returns 7799
+
+The reason is because in this example ‘99’ is in inverted commas, i.e it is a string.
+
+const  someorothernumber = '100';
+console.log(2 + parseInt(someorothernumber));
+// returns 102
+
+Basically this is saying “make my number an integer”
+In contrast to this - when would we get a NaN value returned?
+
+This would happen if we have text to begin a string. Eg like "This is her big birthday and she is 3!" will return a NaN value because the parseInt function considers only the FIRST value starting the string. If the value is not a number then it will read as NOT A NUMBER and return NaN.
+
+</body>
+</html>
+

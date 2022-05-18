@@ -44,7 +44,57 @@ Asking your peers for help - I feel less embarrassed as they seem to be nice
 Asking coaches for help - this is the easiest way to make progress
 Improving your process with reflection - I see more and more value to doing this, and so am doing it more and more…
   </ul>
-<p>
+
+<h2>Other notes regarding code readability:</h2>
+
+<p>Indentation helps us to see the symmetry of tags and if something is missing by using visual pattern matching.</p>
+
+<p>We indent tags, such as block level elements eg text.. This, with the exception of headings.</p>
+
+<p>we don't indent 'title' and other items inside 'head'</p>
+
+<p>Indenting 'Li' and '/Li' is optional (but usually not necessary if list is short)</p>
+
+<h2>Never indent inline elements:</h2>
+
+<p> 
+    Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, 
+    sed do <em>eiusmod tempor</em> incididunt ut labore et <code>dolore 
+    magna aliqua</code>. Ut enim ad minim veniam, <font size="5">quis 
+    nostrud</font> exercitation ullamco <a href="http://www.demonoid.me">laboris
+    nisi ut aliquip</a> ex ea commodo consequat. 
+</p>
+
+
+"<head> and <body> dont need to be indented: -->
+
+'html'
+'head'
+    'title>Document title</title'
+'/head'
+'body'
+    'h1>Page title</h1'
+    'p'
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+    '/p'
+'/body'
+'/html'
+
+<h2>How to auto indent in VS code?</h2>
+
+<p>Highlight all the code and press tab to move them all forward at once </p>
+
+<p>Clean code is succinct and focussed: it's logical, unemotional and not fluffy! Think of it like minimalism.. Very calm.</p>
+
+<p>Use the right language, and the specifics around this language (eg use lowerCaseOneWord in Javascript) for the problem you are trying to solve. Is the language/program fit for purpose?</p>
+
+<p>Try not to have dependencies. Dependencies are vulnerabilities when things change (and they do).</p>
+
+<p>All code should have tests. This will be easy if you create it via TDD.</p>
+
+<p>It should be “expressive”. In programming language this means it has names that do what they say on the tin.. I.e communicate their intention. So if you are creating a ‘list’ call it ‘list’ not ‘lego’ or something else that you like or is memorable.. but is random. Other programmers need to be able to interpret your code.</p>
+
+
 </body>
   
 </html>
